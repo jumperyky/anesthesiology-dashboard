@@ -74,6 +74,6 @@ def notify_new_papers(summarized_papers):
     # この程度の分量ならまず問題ない。
     message += "詳細はダッシュボードを確認:\n"
     # ※デプロイ後は実際のURL (例: https://appname.streamlit.app) に書き換えてください
-    message += "https://anesthesiology-dashboard-3fnm8vtwydla8zstrmsx8q.streamlit.app/" 
+    message += "https://texysqp24lkpdbdngjmfuq.streamlit.app/" 
     
     send_line_broadcast(message)
