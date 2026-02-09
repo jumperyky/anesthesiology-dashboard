@@ -1,0 +1,7 @@
+streamlit
+pandas
+biopython
+python-dotenv
+google-genai
+requests
+lxml
