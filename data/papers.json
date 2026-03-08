@@ -202,5 +202,17 @@
     "pub_date": "2026-Feb",
     "abstract": "Clinical ultrasound in the hands of physicians is rich with experiences from various medical specialties. As point of care ultrasound has revolutionized patient care in the perioperative period, it is important to reflect on the beginnings, and the path taken to modern day portable devices. As anesthesiologists, point of care ultrasound has become embedded into all aspects of perioperative care to improve patient outcomes. Advancements in technology continue to extend the boundaries for use by anesthesiologists and redefine the standard of care in the perioperative period. This article reflects on the path of point-of-care ultrasound from its beginning to the present day and discusses future directions. A summary of key findings is shown.",
     "fetched_date": "2026-03-08T21:17:32.111870"
+  },
+  {
+    "title_ja": "肝移植レシピエントの術後管理における進歩",
+    "summary": "肝移植後の1年生存率は高いものの、患者背景の複雑化に伴い周術期管理の継続的な改善が求められている。\n術後管理ではERAS原則の導入、フレイル評価や機械学習によるリスク層別化が進展している。\n輸液制限や粘弾性凝固検査を用いた目標指向型循環管理、臓器灌流技術の進歩、個別化された感染予防、リハビリテーションが重要である。",
+    "clinical_action": "肝移植術後の患者管理では、ERAS原則に基づき早期離床とデバイスの早期抜去を積極的に推進してください。\n輸液管理は目標指向型アプローチを採用し、輸血量を最小限に抑えるため粘弾性凝固検査を積極的に活用した制限的輸液戦略を考慮してください。\n術前評価ではフレイル評価や心肺運動負荷試験（CPET）の結果を参考に、個別化されたリスク評価と術後管理計画を立ててください。\nDCD（心停止後臓器提供）グラフトでは、虚血性胆管炎のリスク低減のため、ノルモサーミック区域灌流（NRP）の導入状況を確認し、グラフトの状態をより注意深くモニタリングしてください。\nECMOなどの高度臓器補助が必要な場合は、グラフトへの影響を常に意識した管理を徹底してください。\n感染予防は画一的ではなく、患者個々のリスクに応じたテーラーメイドの予防戦略を検討してください。\n術後の回復を促進し合併症を減らすため、栄養管理と構造化されたリハビリテーションプログラムへの早期介入を促してください。",
+    "importance": 5,
+    "original_title": "Advances in the postoperative care of the liver transplant recipient.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41655026/",
+    "id": "41655026",
+    "pub_date": "2026-Apr-01",
+    "abstract": "Survival rates following liver transplantation now exceed 90% at one year. However, the patient group undergoing liver transplantation is increasingly complex, requiring continued focus on improving perioperative care to sustain these survival outcomes. This review highlights recent advances in the postoperative care of the liver transplantation patient. Modern care integrates Enhanced Recovery After Surgery (ERAS) principles, which emphasise early mobilisation and device minimisation. Risk stratification has become increasingly sophisticated, with frailty and cardiopulmonary exercise testing providing powerful prognostic information; emerging machine learning approaches may further refine personalised risk prediction.Goal-directed haemodynamic management is advocated, with restrictive fluid strategies and viscoelastic haemostatic assays to minimise transfusion. Advances in graft optimisation have expanded the donor pool: normothermic regional perfusion reduces ischaemic cholangiopathy in donation after cardiac death grafts, while machine perfusion systems show promise in improving early graft function.Advanced organ support (extracorporeal membrane oxygenation) requires careful graft-conscious management. Infection prevention strategies include tailored prophylaxis approaches. Nutrition and structured prehabilitation/rehabilitation programmes support recovery, reduce complications and address persistent functional deficits. Collectively, these developments reflect a shift toward personalised, multidisciplinary postoperative care, aimed at improving both survival and quality of life for liver transplantation recipients.",
+    "fetched_date": "2026-03-08T23:28:53.582496"
   }
 ]
