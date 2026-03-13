@@ -238,5 +238,17 @@
     "pub_date": "2025-Dec",
     "abstract": "Artificial intelligence (AI) is transforming regional anesthesiology and pain medicine through enhancements in clinical care and education. AI offers the ability to predict clinical outcomes, streamline care, and improve safety. The application of AI to image interpretation may enhance the accuracy and safety of regional anesthesiology procedures. AI concurrently offers personalized educational content and learner assessment tools. However, significant limitations exist, including data security concerns, accuracy, and biases from limited or even flawed training data. The future of AI in anesthesiology requires active involvement from anesthesiologists to guide its development and use, thus ensuring ethical and appropriate implementation.",
     "fetched_date": "2026-03-10T21:24:31.490240"
+  },
+  {
+    "title_ja": "腹部臓器移植：2024年の注目すべき文献",
+    "summary": "このレビューは、2024年に発表された腹部臓器移植患者の麻酔管理に関する注目すべき文献をまとめている。\n腎臓、膵臓、腸、肝臓移植における心血管リスク評価、機械灌流、血行動態管理、麻酔方法、ドナー管理などの新知見が特集されている。\nこれらの最新情報は、麻酔科医が移植医療における臨床実践をアップデートするために不可欠である。",
+    "clinical_action": "腹部臓器移植患者の麻酔管理では、心血管リスク評価の最新動向を把握し、特に腎移植患者の術前評価に反映させてください。\n臓器保存における機械灌流の導入拡大は、ドナー臓器の質とレシピエント管理に新たな考慮事項をもたらすため、その臨床的意義を理解しておく必要があります。\n血行動態管理、輸液管理、術中モニタリング、麻酔方法（区域麻酔含む）については、各臓器移植の特性に応じた最新の推奨事項や施設プロトコルの変更がないか確認し、特に肝移植では新たなエビデンスに基づく管理が推奨される可能性があります。\nドナー管理、術前・術後のフレイル対策、リハビリテーション、プレハビリテーションの重要性が高まっており、これらの分野での最新の推奨事項に注意を払い、多職種連携を強化してください。\nこの1年で常識が変化している可能性があるため、自身の知識を積極的にアップデートし、疑問点は専門医に相談するなどして、安全な臨床実践に繋げてください。",
+    "importance": 5,
+    "original_title": "Abdominal Organ Transplantation: Noteworthy Literature in 2024.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40096997/",
+    "id": "40096997",
+    "pub_date": "2025-Jun",
+    "abstract": "This review highlights noteworthy literature published in 2024 pertinent to anesthesiologists and critical care physicians caring for patients undergoing abdominal organ transplantation. We feature 13 studies from over 5555 peer-reviewed publications on kidney transplantation, 4 studies from 1963 publications on pancreas transplantation, and 3 studies from 1879 publications on intestinal transplantation. The liver transplantation section includes a special focus on 22 studies from 4571 clinical trials published in 2024. We identified the new findings with our specialty interest, including cardiovascular risk assessment, machine perfusion, hemodynamic management, mode of anesthesia and regional techniques, donor management, fluid management, intraoperative monitoring, blood salvage, frailty, and rehabilitation and prehabilitation.",
+    "fetched_date": "2026-03-13T21:27:04.546531"
   }
 ]
