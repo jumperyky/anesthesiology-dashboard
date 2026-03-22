@@ -250,5 +250,17 @@
     "pub_date": "2025-Jun",
     "abstract": "This review highlights noteworthy literature published in 2024 pertinent to anesthesiologists and critical care physicians caring for patients undergoing abdominal organ transplantation. We feature 13 studies from over 5555 peer-reviewed publications on kidney transplantation, 4 studies from 1963 publications on pancreas transplantation, and 3 studies from 1879 publications on intestinal transplantation. The liver transplantation section includes a special focus on 22 studies from 4571 clinical trials published in 2024. We identified the new findings with our specialty interest, including cardiovascular risk assessment, machine perfusion, hemodynamic management, mode of anesthesia and regional techniques, donor management, fluid management, intraoperative monitoring, blood salvage, frailty, and rehabilitation and prehabilitation.",
     "fetched_date": "2026-03-13T21:27:04.546531"
+  },
+  {
+    "title_ja": "高齢者麻酔における特別な考慮事項：高齢患者の周術期管理の側面",
+    "summary": "高齢患者の周術期管理では、術後合併症リスクの高い脆弱な患者を特定するための専門的な術前評価が重要である。\n健康に老化した高齢者と脆弱な高齢者を区別し、個々の患者に合わせた周術期管理計画を立てる必要がある。\n多職種連携による丁寧な計画が、高リスク患者の安全な周術期治療を保証する。",
+    "clinical_action": "高齢患者の術前評価では、年齢だけでなく、フレイルティ、認知機能、日常生活動作（ADL）を積極的に評価すること。特に、Clinical Frailty Scale (CFS)などのツールを活用し、脆弱な患者を早期に特定する。\n脆弱な高齢患者に対しては、術前から多職種連携（老年科医、リハビリテーション科医、栄養士など）を積極的に導入し、術前最適化（プレハビリテーション）を検討する。\n麻酔計画は個々の患者の生理学的予備能に合わせて個別化し、術中・術後のせん妄リスクを考慮した薬剤選択（抗コリン作用の強い薬剤の回避など）や、術後早期離床・リハビリテーションを念頭に置いた鎮痛計画を立てる。\n術後せん妄予防のため、術中低血圧・低酸素・低体温の回避はもちろん、術後も適切な鎮痛、早期離床、睡眠環境の整備、多剤併用回避を徹底する。\n「高齢だから」と一括りにせず、健康に老化した高齢者と脆弱な高齢者を明確に区別し、後者にはより手厚い周術期管理が必要であるという意識を持つこと。",
+    "importance": 5,
+    "original_title": "[Special considerations in geriatric anesthesiology : Aspects of perioperative management in older adults].",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40358680/",
+    "id": "40358680",
+    "pub_date": "2025-May",
+    "abstract": "Older people need a specialized preoperative risk assessment to reliably identify those highly vulnerable risk patients who are in danger of a poor postoperative outcome. In this way these vulnerable risk patients can be separated from those who have successfully and healthily aged and therefore still show a high resilience even in old age. Careful planning of the perioperative management with integration of all disciplines and professions involved can ensure a safe perioperative treatment even for high-risk patients. The corresponding possibilities are presented in this article. The perioperative geriatric anesthesiological treatment pathway must be individually adapted and conceived to specifically address the risks of those patients who are particularly in danger of functional decline and complications.",
+    "fetched_date": "2026-03-22T21:20:26.675458"
   }
 ]
