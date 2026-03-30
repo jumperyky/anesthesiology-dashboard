@@ -262,5 +262,17 @@
     "pub_date": "2025-May",
     "abstract": "Older people need a specialized preoperative risk assessment to reliably identify those highly vulnerable risk patients who are in danger of a poor postoperative outcome. In this way these vulnerable risk patients can be separated from those who have successfully and healthily aged and therefore still show a high resilience even in old age. Careful planning of the perioperative management with integration of all disciplines and professions involved can ensure a safe perioperative treatment even for high-risk patients. The corresponding possibilities are presented in this article. The perioperative geriatric anesthesiological treatment pathway must be individually adapted and conceived to specifically address the risks of those patients who are particularly in danger of functional decline and complications.",
     "fetched_date": "2026-03-22T21:20:26.675458"
+  },
+  {
+    "title_ja": "腹部臓器移植における周術期ポイントオブケア超音波の活用。パートI：術前および術中管理",
+    "summary": "SATAのホワイトペーパーは、腹部臓器移植における周術期ポイントオブケア超音波（PoCUS）の活用を包括的にレビューしている。\n本論文のパートIでは、術前および術中管理における経胸壁、肺、胃、経食道エコーの利用に焦点を当てている。\nリアルタイムでの患者アウトカム改善を目指し、エビデンスに基づいた実践的な推奨事項を提供している。",
+    "clinical_action": "腹部臓器移植の術前・術中管理において、PoCUSはリアルタイムでの患者評価とアウトカム改善に不可欠なツールとして、この1年でその重要性がさらに高まっています。\n特に、移植患者の複雑な循環動態評価、肺水腫の早期発見、胃内容物の確認、心機能評価に積極的にPoCUSを活用することを推奨します。\n経食道心エコー（TEE）は術中の詳細な心機能・容量反応性評価に有用であり、必要に応じて躊躇なく使用できるよう準備し、最新のガイドラインに沿った実践を心がけてください。",
+    "importance": 5,
+    "original_title": "Perioperative Point-of-Care Ultrasound Utilization in Abdominal Organ Transplantation. Part I: Preoperative and Intraoperative Care.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40245256/",
+    "id": "40245256",
+    "pub_date": "2025-Apr",
+    "abstract": "In this Society for the Advancement of Transplant Anesthesia (SATA) white paper, experts in abdominal transplant anesthesia and critical care reviewed the current literature and practice behaviors to create a comprehensive review of the utilization of point-of-care ultrasound (PoCUS) in abdominal organ transplantation (AOT) and to provide evidenced-based recommendations for clinicians to utilize perioperative PoCUS to improve patient outcomes in real time. Organized by phase of care-preoperative, intraoperative, and postoperative-this paper includes a discussion of transthoracic, pulmonary, gastric, and transesophageal echocardiography. Part I of this paper focuses on preoperative and intraoperative PoCUS while the upcoming Part II focuses on utilizing PoCUS in the immediate postoperative and intensive care setting to guide fluid management, identify venous congestion, identify causes of shock, and estimate hemodynamics in AOT patients.",
+    "fetched_date": "2026-03-30T21:36:16.022551"
   }
 ]
