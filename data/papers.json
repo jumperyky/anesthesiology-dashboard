@@ -286,5 +286,17 @@
     "pub_date": "2025-Oct-01",
     "abstract": "Point-of-care ultrasound (POCUS) is an inexpensive and often readily available tool for anesthesia providers to utilize to assess gastric content, both qualitatively and quantitatively, in the perioperative arena. Gastric POCUS requires the anesthesia provider to be trained and proficient in technique and interpretation of findings to accurately guide decision-making for patient care. The American Association of Nurse Anesthesiology, the American Society of Anesthesiologists, and the American Society of Regional Anesthesia have established guidelines supporting the use of gastric POCUS. This article aims to provide an integrative review of the literature surrounding current strategies in education and assessment of anesthesia provider competency in the perioperative utilization of gastric POCUS. Strict inclusion and exclusion criteria were used yielding eight articles in an effort to help determine feasible, efficient, reliable, and beneficial educational strategies to improve anesthesia provider competency. Findings suggest success with various educational strategies, including didactic, hands-on, electronic, and self-directed courses on gastric POCUS, supported by improved postintervention analyses of provider competency.",
     "fetched_date": "2026-04-08T21:36:29.005008"
+  },
+  {
+    "title_ja": "要約エラー",
+    "summary": "要約の生成に失敗しました。",
+    "clinical_action": "原文を確認してください。",
+    "importance": 1,
+    "original_title": "Preemptive regional nerve blocks for sternotomy in pediatric cardiac surgery: a Bayesian network meta-analysis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40545175/",
+    "id": "40545175",
+    "pub_date": "2025",
+    "abstract": "Effective pain management and expedited recovery are critical in pediatric cardiac surgery. While regional anesthesia techniques provide targeted pain control and may reduce opioid use and related complications, comparative evidence among regional nerve blocks in this population is limited. This study aimed to conduct a systematic review and network meta-analysis to support clinical decision-making for optimal analgesia. We conducted a Bayesian Network Meta-Analysis (NMA) including Randomized Controlled Trials (RCTs) of pediatric patients (0-12 years) undergoing cardiac surgery by sternotomy and receiving preemptive regional nerve blocks. Primary outcomes included pain scores, opioid consumption and extubation time. Both direct and indirect evidence were synthesized to rank interventions probabilistically. This study was registered on PROSPERO (CRD42024585785) and followed PRISMA Extension Statement for Reporting of Systematic Reviews Incorporating Network Meta-analyses of Health Care Interventions. The NMA incorporated 12 RCTs, comprising 969 participants, and evaluated seven regional nerve blocks. Among the techniques studied, transversus Thoracis Muscle Plane Block (TTPB) consistently ranked among the most effective for pain relief and recovery. Other blocks, including thoracic retrolaminar block and thoracic paravertebral block, also demonstrated notable performances. Adverse events were infrequent but inconsistently reported, preventing an adequate analysis. This NMA identified TTPB as a consistently top-performing technique across outcomes. These findings provide promising support for its inclusion in ERAS protocols, although further high-quality trials are needed. PROSPERO ID: CRD42024585785.",
+    "fetched_date": "2026-04-09T21:41:10.785996"
   }
 ]
