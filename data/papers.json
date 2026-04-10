@@ -298,5 +298,17 @@
     "pub_date": "2025",
     "abstract": "Effective pain management and expedited recovery are critical in pediatric cardiac surgery. While regional anesthesia techniques provide targeted pain control and may reduce opioid use and related complications, comparative evidence among regional nerve blocks in this population is limited. This study aimed to conduct a systematic review and network meta-analysis to support clinical decision-making for optimal analgesia. We conducted a Bayesian Network Meta-Analysis (NMA) including Randomized Controlled Trials (RCTs) of pediatric patients (0-12 years) undergoing cardiac surgery by sternotomy and receiving preemptive regional nerve blocks. Primary outcomes included pain scores, opioid consumption and extubation time. Both direct and indirect evidence were synthesized to rank interventions probabilistically. This study was registered on PROSPERO (CRD42024585785) and followed PRISMA Extension Statement for Reporting of Systematic Reviews Incorporating Network Meta-analyses of Health Care Interventions. The NMA incorporated 12 RCTs, comprising 969 participants, and evaluated seven regional nerve blocks. Among the techniques studied, transversus Thoracis Muscle Plane Block (TTPB) consistently ranked among the most effective for pain relief and recovery. Other blocks, including thoracic retrolaminar block and thoracic paravertebral block, also demonstrated notable performances. Adverse events were infrequent but inconsistently reported, preventing an adequate analysis. This NMA identified TTPB as a consistently top-performing technique across outcomes. These findings provide promising support for its inclusion in ERAS protocols, although further high-quality trials are needed. PROSPERO ID: CRD42024585785.",
     "fetched_date": "2026-04-09T21:41:10.785996"
+  },
+  {
+    "title_ja": "要約エラー",
+    "summary": "要約の生成に失敗しました。",
+    "clinical_action": "原文を確認してください。",
+    "importance": 1,
+    "original_title": "Regional Anesthesia to Save the Day for Kids: A Narrative Review of Literature About the Blocks to Know for Common Pediatric Surgeries.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41597448/",
+    "id": "41597448",
+    "pub_date": "2026-Jan-13",
+    "abstract": "Postoperative pain management in pediatric patients remains a significant challenge despite improvements in perioperative care. Regional anesthesia techniques applied as part of multimodal analgesia strategies offer the potential to reduce opioid use, accelerate recovery, and minimize side effects such as respiratory depression, nausea, and delayed mobilization. This review examines the clinical applications, advantages, and limitations of regional anesthesia blocks in the context of common pediatric surgical procedures-appendectomy, inguinal hernia repair, circumcision, cholecystectomy, and pyloromyotomy. We provide procedural comparisons in terms of analgesic efficacy, opioid-sparing effects and suitability for ambulatory surgery. In conclusion, regional anesthesia techniques have significant potential to improve postoperative outcomes in pediatric patients. However, block selection should be individualized, considering the type of surgical procedure, patient characteristics, and operator experience. Increasing applicability and routinely implementing ultrasound-guided procedures will encourage the safer and more effective use of these techniques in pediatric anesthesia.",
+    "fetched_date": "2026-04-10T21:31:03.388009"
   }
 ]
