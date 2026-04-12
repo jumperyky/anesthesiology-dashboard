@@ -322,5 +322,17 @@
     "pub_date": "2026",
     "abstract": "Hip fractures in the elderly population are associated with considerable complications such as morbidity, mortality, and enduring functional deterioration. Thus, they render perioperative management an essential element of strategies aimed at fostering healthy aging. Regional anesthesia (RA) and general anesthesia (GA) constitute the two predominant methods for the surgical intervention of hip fractures; however, the most effective technique remains a subject of ongoing scholarly debate. This research review seeks to systematically assess and compare regional anesthesia to general anesthesia in elderly patients undergoing surgical treatment for hip fractures, focusing on perioperative safety, mortality rates, functional recovery, cardiopulmonary issues, and cognitive outcomes to understand their implications for encouraging healthy aging. A concentrated narrative review of pertinent literature published from the year 2020 onwards was executed, utilizing databases such as PubMed and Google Scholar. Studies were included for consideration if they provided a comparative analysis of regional anesthesia and general anesthesia in adults aged 65 years and above undergoing surgical procedures for hip fractures. Recent extensive randomized trials indicate that spinal anesthesia does not show an advantage over general anesthesia concerning survival rates, functional recovery, or significant postoperative results, including the return to ambulation at a 60-day follow-up. Meta-analyses indicate that both anesthetic methods demonstrate similar safety profiles; however, regional anesthesia might lead to reduced intraoperative blood loss, shorter operative times, and slight decreases in hospital stay for certain patient groups.",
     "fetched_date": "2026-04-11T21:26:52.072667"
+  },
+  {
+    "title_ja": "最小侵襲で最大効果：内視鏡下心臓手術における麻酔管理",
+    "summary": "内視鏡下心臓手術は、回復が早く、入院期間が短縮され、出血量や術後感染が少ないなど多くの利点がある。\nしかし、全ての患者に適応されるわけではなく、術者・麻酔科医双方にとって習熟に時間を要する。\n本レビューは、この手術における周術期麻酔管理の課題を包括的に解説している。",
+    "clinical_action": "内視鏡下心臓手術は、患者の回復促進や合併症減少に寄与するが、麻酔管理には特有の課題が多い。\n術前には、患者の肺機能、心機能、胸腔内癒着の有無を詳細に評価し、適応を慎重に判断すること。特に重度肺疾患や右心不全患者ではリスクが高い。\n術中は、片肺換気やCO2送気による循環・呼吸動態への影響（高炭酸ガス血症、静脈還流低下、肺コンプライアンス低下）を常にモニタリングし、換気設定や輸液管理をきめ細かく調整する。\n特殊な体位（例：右側臥位）による神経損傷や圧迫性潰瘍のリスクを考慮し、体位固定と保護を徹底する。\n経食道心エコー（TEE）は術中の心機能評価、弁機能評価、空気塞栓の早期発見に不可欠であり、術者との密な連携が求められる。\n万一の開胸移行に備え、常に輸血準備や迅速な対応体制を整えておくこと。この手術の麻酔管理は習熟を要するため、経験豊富な麻酔科医との情報共有や指導を積極的に求めることが重要である。",
+    "importance": 5,
+    "original_title": "Minimally Invasive, Maximally Effective: Anesthetic Management for Endoscopic Cardiac Surgery.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41130847/",
+    "id": "41130847",
+    "pub_date": "2026-Feb",
+    "abstract": "Endoscopic cardiac surgery is associated with faster recovery, shorter hospital stays, less blood loss, fewer postoperative infections, and better cosmetic results. Although not suitable for every patient, minimally invasive cardiac surgery, including endoscopic cardiac surgery, may demonstrate advantages over standard sternotomy-based approaches. On the other hand, the steep learning curve and specific setup present challenges to surgeons and anesthesiologists. This review provides a comprehensive overview of the anesthetic challenges encountered in the perioperative management of patients undergoing endoscopic cardiac surgery.",
+    "fetched_date": "2026-04-12T21:27:39.202006"
   }
 ]
