@@ -334,5 +334,17 @@
     "pub_date": "2026-Feb",
     "abstract": "Endoscopic cardiac surgery is associated with faster recovery, shorter hospital stays, less blood loss, fewer postoperative infections, and better cosmetic results. Although not suitable for every patient, minimally invasive cardiac surgery, including endoscopic cardiac surgery, may demonstrate advantages over standard sternotomy-based approaches. On the other hand, the steep learning curve and specific setup present challenges to surgeons and anesthesiologists. This review provides a comprehensive overview of the anesthetic challenges encountered in the perioperative management of patients undergoing endoscopic cardiac surgery.",
     "fetched_date": "2026-04-12T21:27:39.202006"
+  },
+  {
+    "title_ja": "虚弱を恐れるべきか？肝臓手術における虚弱の影響に関するレビュー",
+    "summary": "虚弱は肝臓手術における重要な予後予測因子であり、術後合併症、死亡率、長期生存率の悪化と一貫して関連している。年齢や併存疾患とは独立したリスク因子であることが示されている。術前虚弱評価は、手術計画と周術期管理を最適化する上で不可欠である。",
+    "clinical_action": "肝臓手術の術前評価では、年齢や併存疾患だけでなく、虚弱の有無を積極的に評価すべきです。虚弱患者では、術後合併症（肝不全、感染症など）、死亡率、入院期間延長のリスクが独立して高まることを念頭に置き、麻酔計画を立ててください。虚弱が認められる場合、外科医と連携し、低侵襲手術や肝実質温存術の選択、術前リハビリテーション（プレハビリテーション）の導入を検討するよう提言してください。麻酔管理においても、術後合併症のリスクが高いことを踏まえ、より慎重な周術期管理計画を立て、術後早期からの積極的な回復支援を強化する必要があります。患者や家族へのインフォームドコンセントの際にも、虚弱が予後に与える影響について具体的に説明し、リスクを共有してください。",
+    "importance": 5,
+    "original_title": "Should We Fear the Frail? A Review on the Impact of Frailty on Liver Surgery.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41283255/",
+    "id": "41283255",
+    "pub_date": "2025-Oct-31",
+    "abstract": "Frailty is a multidimensional syndrome characterized by reduced physiological reserve and resilience and has become a crucial predictor of outcomes in liver surgery. Unlike chronological age, frailty reflects broader vulnerabilities that significantly influence postoperative recovery. To review and synthesize current evidence on the relationship between frailty and postoperative outcomes following liver resection, with an emphasis on short-term complications, mortality, and long-term survival. A comprehensive literature review was performed, drawing on recent meta-analyses, large-scale cohort studies, and prospective observational data. Frailty was evaluated using a range of assessment tools, including the Modified Frailty Index (mFI), Clinical Frailty Scale (CFS), Kihon Checklist (KCL), and claims-based measures such as the Johns Hopkins Frailty Indicator. Across studies, frailty has been consistently linked to a higher incidence of postoperative complications, such as post-hepatectomy liver failure (PHLF), infections, extended hospital stays, and increased mortality. In patients undergoing liver resection for cancer, frailty is also associated with poorer long-term survival. Importantly, frailty serves as an independent risk factor, even after adjusting for age, comorbid conditions, and tumor characteristics. Preoperative identification of frailty enhances risk stratification, informs surgical planning, potentially favoring parenchymal-sparing or minimally invasive approaches, and highlights patients who may benefit from prehabilitation. Frailty is a strong and independent predictor of poor outcomes after liver resection. Incorporating frailty assessment into routine preoperative evaluation can improve surgical decision-making, facilitate informed patient counseling, and optimize perioperative care strategies.",
+    "fetched_date": "2026-04-12T23:39:39.941806"
   }
 ]
