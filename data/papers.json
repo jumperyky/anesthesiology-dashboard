@@ -382,5 +382,17 @@
     "pub_date": "2026-Feb-01",
     "abstract": "Perioperative electroencephalography (EEG) has been widely studied in the last decade, not only as a useful brain state monitor but also as a potential tool to identify vulnerable patients at risk of perioperative neurocognitive disorders. Current literature has mostly focused on the oscillatory components of the EEG signal. Recently, interest in the functional role of the aperiodic activity of the EEG signal has increased both in neuroscience and in anesthesiology. This narrative review aims to provide clinicians and researchers with practical and methodologic insights into characterizing aperiodic EEG activity, focusing on its neurophysiological significance in neuroscience and anesthesia. It furthermore provides the reader with observed variations of aperiodic activity and periodic activity during general anesthesia and highlights whether those parameters could be useful to infer cognitive frailty and perioperative neurocognitive disorders and monitor depth of anesthesia during surgery.",
     "fetched_date": "2026-04-15T21:45:06.109982"
+  },
+  {
+    "title_ja": "要約エラー",
+    "summary": "要約の生成に失敗しました。",
+    "clinical_action": "原文を確認してください。",
+    "importance": 1,
+    "original_title": "Opioid-free anaesthesia as a valuable alternative to opioid-based practices: evidence and future challenges.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40770784/",
+    "id": "40770784",
+    "pub_date": "2025-Oct",
+    "abstract": "Opioid-Free-Anesthesia (OFA) offers a valuable alternative model that challenges traditional opioid-based anesthesia practices. Recent studies have tempered expectations regarding the capacity of OFA techniques to improve quality of postoperative pain management and early recovery, in contrast with the clearly decreased risk of postoperative nausea and vomiting. Essentially based on regional anesthesia, non-opioid adjuvants and multimodal analgesia, OFA should be better viewed as a menu rather than a recipe, guided by surgical invasiveness, patient background, expected postoperative pain, and the practitioner's expertise. Potential concerns of OFA, including bradycardia and hypotension, are manageable with proper training and adapted dosing. Further multicentre trials and non-inferiority studies are needed to better define OFA's impact on patient-reported outcome and experiences measures in perioperative care.",
+    "fetched_date": "2026-04-16T21:36:58.771947"
   }
 ]
