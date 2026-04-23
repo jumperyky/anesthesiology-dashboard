@@ -406,5 +406,17 @@
     "pub_date": "2025-Dec",
     "abstract": "Perioperative Enhanced Recovery After Surgery (ERAS) protocols, though originally created in adult surgery, are increasingly gaining applications in pediatric practice. This application addresses the unique challenge in children, who possess more complex surgical stress responses. The main goal of ERAS is to maximize postoperative recovery and improve clinical outcomes through a standardized multimodal perioperative care approach. This review article integrates current literature and expert consensus regarding the use of ERAS principles in pediatric anesthetic care in the preoperative, intraoperative, and postoperative phases in children undergoing major surgery, also explores the implementation, benefits, and challenges of ERAS in pediatric patients, highlighting recent advancements and the impact of these protocols on recovery. The key pillars of pediatric ERAS include preoperative education and dietary optimization, multimodal opioid-sparing analgesia (e.g., regional anesthesia, nonopioid systemic analgesics), minimally invasive surgery, and goal-directed fluid resuscitation. Postoperative care includes early enteral nutrition, early mobilization, and planned discharge. Existing evidence, although further emerging, indicates that adherence to these protocols is associated with significant benefits, including shorter hospital length of stay, reduced opioid consumption, reduced intraoperative fluid administration, and faster return to normal diet. ERAS protocols implemented in pediatric anesthesia are successful in optimizing recovery by reducing complications, improving pain control, and reducing length of stay. Implementation is case-specific anesthetic planning and multidisciplinary collaboration, finally maximizing outcomes and improving satisfaction for parents and children.",
     "fetched_date": "2026-04-18T21:28:12.835592"
+  },
+  {
+    "title_ja": "医療的複雑性を有する小児の術中管理と課題",
+    "summary": "本論文は、医療的複雑性を有する小児の術中管理における麻酔科医の役割と課題を包括的にレビューしています。\n術前不安緩和から導入、薬剤選択、気道・人工呼吸管理、循環・体温管理、抜管、術中合併症対応まで、多岐にわたる専門知識と技術的修正の必要性を解説しています。\nこれらの患者に対する個別化された麻酔管理の重要性を強調し、医療従事者全般に実践的な指針を提供しています。",
+    "clinical_action": "医療的複雑性を有する小児の症例は増加傾向にあり、個々の患者の病態に応じた極めて個別化された麻酔計画が必須です。標準的なプロトコルに固執せず、常に患者固有のリスク因子を評価し、柔軟な対応を心がけてください。\n術前評価では、不安緩和、導入法、薬剤選択、気道管理、人工呼吸管理、循環管理、体温管理、抜管基準など、あらゆる側面で標準的なアプローチからの逸脱を想定し、詳細な計画を立ててください。特に、気道確保困難、血管確保困難、薬剤反応性の予測困難、術中合併症（心停止含む）のリスクが高いことを常に念頭に置き、事前の準備と多職種連携を徹底することがピットフォールを避ける鍵となります。\nこの1年で、これらの患者に対する管理の「常識」が大きく変わったわけではないが、より個別化されたアプローチの重要性が強調され、最新のガイドラインや推奨事項を再確認することが望ましいでしょう。",
+    "importance": 5,
+    "original_title": "Intraoperative Care and Challenges in Children with Medical Complexity.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42020038/",
+    "id": "42020038",
+    "pub_date": "2026-Apr",
+    "abstract": "This article reviews the intraoperative processes that anesthesiologists manage when caring for children with medical complexity. Designed for a broad audience of health care providers, it covers fundamental considerations alongside the specialized knowledge, techniques, and modifications necessary for complex patients. Specific topics include preoperative anxiolysis, induction techniques, anesthetic medication selection, airway management, intraoperative ventilator management, vascular access, regional anesthesia, positioning, fluid and blood management, temperature management, extubation considerations, and special situations of intraoperative cardiac arrest management.",
+    "fetched_date": "2026-04-23T21:39:56.582351"
   }
 ]
