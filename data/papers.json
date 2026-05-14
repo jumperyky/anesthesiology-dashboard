@@ -418,5 +418,17 @@
     "pub_date": "2026-Apr",
     "abstract": "This article reviews the intraoperative processes that anesthesiologists manage when caring for children with medical complexity. Designed for a broad audience of health care providers, it covers fundamental considerations alongside the specialized knowledge, techniques, and modifications necessary for complex patients. Specific topics include preoperative anxiolysis, induction techniques, anesthetic medication selection, airway management, intraoperative ventilator management, vascular access, regional anesthesia, positioning, fluid and blood management, temperature management, extubation considerations, and special situations of intraoperative cardiac arrest management.",
     "fetched_date": "2026-04-23T21:39:56.582351"
+  },
+  {
+    "title_ja": "GLP-1受容体作動薬による胃内容排出遅延と麻酔中の周術期リスクへの影響",
+    "summary": "GLP-1受容体作動薬（GLP-1 RAs）は糖尿病や肥満治療に広く用いられているが、胃内容排出を遅延させる。これにより、標準的な術前絶食後も胃内容物が残存し、麻酔中の誤嚥リスクが増大する。特に短時間作用型は顕著な遅延を引き起こし、長時間作用型も残存効果があるため、周術期管理において注意が必要である。",
+    "clinical_action": "GLP-1受容体作動薬（GLP-1 RAs）を服用中の患者は、標準的な術前絶食時間でも胃内容物が残存し、誤嚥リスクが高いことを常に念頭に置いてください。術前問診でGLP-1 RAsの使用を確認し、薬剤の種類、最終投与日、投与量を詳細に把握することが必須です。誤嚥リスクが高いと判断される場合、迅速導入（RSI）の適応を積極的に検討し、可能であれば術前胃超音波検査による胃内容物評価も考慮に入れてください。緊急手術でない限り、内分泌内科医と連携し、薬剤の休薬期間を十分に確保した上で手術日を調整することも重要です。最新の国際的なガイドライン（例：ASAの推奨）を確認し、それに従うようにしてください。",
+    "importance": 5,
+    "original_title": "Delayed gastric emptying induced by glucagon-like peptide-1 receptor agonists and its implications for perioperative risk during anesthesia.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42128379/",
+    "id": "42128379",
+    "pub_date": "2026-May",
+    "abstract": "Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are increasingly prescribed for managing type 2 diabetes mellitus and obesity because of their glucose-lowering, weight-reducing, and cardiovascular benefits. However, their potential to delay gastric emptying has raised growing concern in perioperative care, particularly regarding the risk of pulmonary aspiration during general anesthesia. Recent studies have shown that patients treated with GLP-1 RAs may retain considerable gastric contents even after standard preoperative fasting, thereby increasing the likelihood of regurgitation and aspiration during anesthesia induction or emergence. Short-acting GLP-1 RAs cause more pronounced delays in gastric emptying, whereas long-acting agents may exert residual effects depending on dose and treatment duration. Several international anesthesia societies have issued updated guidance to mitigate these risks, yet available evidence remains limited and sometimes inconsistent. This review summarizes the pharmacological mechanisms and clinical implications of GLP-1 RA-induced delayed gastric emptying, evaluates current literature on perioperative aspiration risk, and emphasizes the importance of interdisciplinary collaboration between endocrinologists and anesthesiologists to ensure safe and individualized perioperative management.",
+    "fetched_date": "2026-05-14T22:04:01.165637"
   }
 ]
