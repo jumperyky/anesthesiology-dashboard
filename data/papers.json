@@ -706,5 +706,17 @@
     "pub_date": "2026",
     "abstract": "Thoracic surgery is commonly performed for the management of conditions involving the lungs, mediastinum, pleura, and chest wall. Despite advances in surgical techniques and perioperative care, postoperative pain remains a frequent complication. In some patients, pain may persist and progress into chronic post-thoracotomy pain syndrome (CPTPS), defined as pain lasting more than 2 months after surgery. The prevalence of chronic pain ranges from 21% to 91%, with lower rates observed in minimally invasive approaches such as video-assisted thoracoscopic surgery (VATS) (~35.5%) and robotic-assisted thoracic surgery (RATS) (11.2%-34.6%). This study presents a literature review evaluating the epidemiology, pathophysiology, and management of CPTPS, including pharmacological, interventional, and rehabilitation-based approaches, as well as emerging biological therapies. Chronic pain is multifactorial, involving tissue injury, inflammation, intercostal nerve damage, and central sensitization. It is associated with impaired respiratory function, reduced mobility, sleep disturbances, and decreased quality of life. Multimodal analgesia and regional anesthesia are key strategies, while rehabilitation supports functional recovery. Emerging biological therapies show promise but remain limited in evidence. A multidisciplinary approach is essential to reduce CPTPS and improve long-term outcomes and quality of life.",
     "fetched_date": "2026-08-31T01:11:24.011007"
+  },
+  {
+    "title_ja": "フレイル患者 - 手術リスクと術後転帰における重要な因子としてのフレイル",
+    "summary": "フレイルは生理的予備能の低下とストレスへの脆弱性亢進を特徴とする多次元症候群である。\n術後合併症、罹病率、死亡率のリスクを著しく高める重要な因子であり、高齢化に伴いその有病率は増加している。\n早期の評価とプレハビリテーションなどの介入により、術後転帰を改善できる可能性があり、周術期ケアへのルーチンな組み込みが推奨されている。",
+    "clinical_action": "高齢患者の術前診察では、フレイルの有無を積極的に評価する習慣をつけましょう。簡易身体能力バッテリーや歩行速度、握力などの客観的な評価ツールを導入し、リスク層別化に活用してください。\nフレイルと診断された患者は、術後合併症のリスクが著しく高まることを念頭に置き、麻酔計画や術後管理計画を立てる必要があります。特に、術後のせん妄や身体機能低下のリスクを考慮し、早期離床や疼痛管理、栄養サポートをより積極的に行う計画を立ててください。\n可能であれば、術前にプレハビリテーション（運動療法、栄養療法など）を提案し、患者の生理的予備能の改善を図ることが重要です。これは、単に基礎疾患を最適化するだけでなく、全身状態そのものを底上げする新たな視点です。\nフレイルは「変えられないもの」ではなく「介入によって改善しうるもの」という認識を持ち、周術期チーム全体で患者の予後改善に貢献する意識が求められます。",
+    "importance": 5,
+    "original_title": "The frail patient - frailty as a critical factor in surgical risk and postoperative outcomes.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42419953/",
+    "id": "42419953",
+    "pub_date": "2026",
+    "abstract": "Frailty is a multidimensional syndrome characterized by reduced physiological reserve and increased vulnerability to stressors, significantly elevating the risk of postoperative complications, morbidity, and mortality. As the population ages, prevalence of frailty among surgical patients is rising. This article summarizes current knowledge on frailty as a key predictor of surgical risk, introduces validated tools for its assessment, and discusses their application in clinical practice. Furthermore, it highlights prehabilitation as an effective intervention to improve the patients' baseline condition and reduce postoperative complications. Based on available evidence, frailty is a modifiable condition whose early identification and targeted interventions have the potential to significantly influence surgical outcomes and overall patient prognosis. The article calls for routine integration of frailty assessment into perioperative clinical care.",
+    "fetched_date": "2026-09-04T22:41:56.233305"
   }
 ]
