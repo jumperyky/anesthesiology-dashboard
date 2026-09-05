@@ -718,5 +718,17 @@
     "pub_date": "2026",
     "abstract": "Frailty is a multidimensional syndrome characterized by reduced physiological reserve and increased vulnerability to stressors, significantly elevating the risk of postoperative complications, morbidity, and mortality. As the population ages, prevalence of frailty among surgical patients is rising. This article summarizes current knowledge on frailty as a key predictor of surgical risk, introduces validated tools for its assessment, and discusses their application in clinical practice. Furthermore, it highlights prehabilitation as an effective intervention to improve the patients' baseline condition and reduce postoperative complications. Based on available evidence, frailty is a modifiable condition whose early identification and targeted interventions have the potential to significantly influence surgical outcomes and overall patient prognosis. The article calls for routine integration of frailty assessment into perioperative clinical care.",
     "fetched_date": "2026-09-04T22:41:56.233305"
+  },
+  {
+    "title_ja": "地域麻酔と急性疼痛管理におけるビッグデータと人工知能の可能性を解き放つ",
+    "summary": "ビッグデータ研究が地域麻酔と急性疼痛管理の評価を変革している。\n従来のRCTの限界を補完し、大規模かつ多様なデータからリアルワールドでの患者アウトカムや稀な合併症を分析可能である。\nこれにより、周術期管理におけるより包括的で実践的な知見が得られる。",
+    "clinical_action": "最新のガイドラインや推奨事項が、従来のRCTだけでなく、大規模なリアルワールドデータ（ビッグデータ）分析に基づいて策定される傾向にあることを認識してください。これにより、より多様な患者群や稀な合併症に関する知見が提供される可能性があります。\n特に、地域麻酔や急性疼痛管理における合併症発生率や特定の治療法の効果について、従来の常識がビッグデータ解析によって見直されることがあるため、常に最新の情報を確認する習慣が重要です。\n自身の臨床データ（電子カルテなど）が将来のビッグデータ解析に貢献しうることを意識し、正確な記録を心がけることが、間接的に医療の進歩に繋がります。",
+    "importance": 5,
+    "original_title": "Unlocking the Potential of Big Data and Artificial Intelligence in Regional Anesthesiology and Acute Pain Medicine.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41233108/",
+    "id": "41233108",
+    "pub_date": "2025-Dec",
+    "abstract": "Advances in computing and technology have enabled big data research to transform the evaluation of regional anesthesia and acute pain medicine. Traditional randomized controlled trials, while rigorous, are limited by strict criteria, cost, and lack of real-world applicability. Big data studies utilize large, diverse datasets from clinical records, registries, and administrative sources, allowing for broader analysis of patient outcomes, including rare complications. The 6Vs-volume, variety, velocity, veracity, value, and variability-define big data's strengths and challenges. By complementing traditional research, big data enhances generalizability and supports more comprehensive, real-world insights into perioperative care.",
+    "fetched_date": "2026-09-05T22:33:01.612807"
   }
 ]
