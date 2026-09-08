@@ -730,5 +730,17 @@
     "pub_date": "2025-Dec",
     "abstract": "Advances in computing and technology have enabled big data research to transform the evaluation of regional anesthesia and acute pain medicine. Traditional randomized controlled trials, while rigorous, are limited by strict criteria, cost, and lack of real-world applicability. Big data studies utilize large, diverse datasets from clinical records, registries, and administrative sources, allowing for broader analysis of patient outcomes, including rare complications. The 6Vs-volume, variety, velocity, veracity, value, and variability-define big data's strengths and challenges. By complementing traditional research, big data enhances generalizability and supports more comprehensive, real-world insights into perioperative care.",
     "fetched_date": "2026-09-05T22:33:01.612807"
+  },
+  {
+    "title_ja": "結腸直腸手術における現代の術前評価：新たな知見と進展",
+    "summary": "結腸直腸手術における術前評価は、高齢・多病患者の増加に伴い、その重要性が再認識されている。\n従来の評価に加え、リスク層別化、栄養・フレイル評価、静脈内鉄剤投与、バイオマーカー活用などが現代的なアプローチとして導入されている。\n多職種連携による包括的な術前最適化が、周術期アウトカムの改善に寄与するとされている。",
+    "clinical_action": "術前評価は単なるリスク特定ではなく、積極的に介入しアウトカムを改善する機会と捉える意識を持つこと。特に高齢・多病患者では、外科医、栄養士、理学療法士など多職種と連携し、栄養状態やフレイルの評価・改善に積極的に関与する。貧血患者に対しては、時間があれば術前静脈内鉄剤投与を検討し、輸血回避に努める。術前リハビリテーション（プレハビリテーション）の重要性が増しており、患者への情報提供や参加を促す。リスク層別化スコアやバイオマーカーの活用についても、最新の情報をキャッチアップし、必要に応じて導入を検討する。術前教育も患者の不安軽減と協力体制構築に不可欠である。",
+    "importance": 5,
+    "original_title": "Contemporary preoperative assessment for colorectal surgery: new insights and developments.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42276738/",
+    "id": "42276738",
+    "pub_date": "2026-Jun-11",
+    "abstract": "Preoperative assessment is a critical step for every patient undergoing major colorectal surgery. Increasingly, major colorectal resection is being safely performed in older and multimorbid patients. Many established tenets of preoperative assessment-careful history and examination and selected laboratory investigations-have remained unchanged for decades. However, there is an increasing focus on the importance of this step in the pathway as a key opportunity to intervene and improve patient outcomes following surgery. Patients are increasingly complex, necessitating a multidisciplinary approach involving a range of specialists to help identify and optimise modifiable risk factors and manage comorbidities. Modern approaches use risk stratification scores to better communicate risk, nutritional and frailty assessments, intravenous iron therapy, antibiotic plus bowel cleansing regimens and the use of biomarkers. Preoperative patient education and prehabilitation approaches are being harnessed to better prepare patients for surgery. Comprehensive assessment and optimisation before surgery can improve surgical outcomes and contribute to safer perioperative care.",
+    "fetched_date": "2026-09-08T23:05:58.794499"
   }
 ]
