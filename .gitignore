@@ -21,3 +21,16 @@ env/
 # OS
 Thumbs.db
 Desktop.ini
+
+# 秘密情報（コミット禁止）
+.env.*
+!.env.example
+credentials.json
+token.json
+client_secret*.json
+
+# ローカルの作業ファイル
+*.code-workspace
+debug_output.txt
+models.txt
+models_list.txt

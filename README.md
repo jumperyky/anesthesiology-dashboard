@@ -1,12 +1,12 @@
-# Anesthesiology Update Dashboard 💉
+# Anesthesiology Update Dashboard
 
 麻酔科医（特に臨床復帰者）向けの、最新臨床トレンド論文自動収集・要約・通知システムです。
-毎週月曜日にPubMedからガイドラインや重要論文を自動収集し、Geminiで要約してLINEに通知＆ダッシュボード更新を行います。
+毎朝6時（JST）にPubMedからガイドラインや重要論文を自動収集し、Geminiで要約してLINEに通知＆ダッシュボード更新を行います。
 
 ## Features
 - **Smart Fetching**: PubMed APIを使用し、過去1年の「Guidelines」「Meta-Analysis」などを検索。既読論文は自動で重複排除。
-- **AI Summarization**: Gemini 1.5 Flash (or 2.0) を使用し、指導医視線で「臨床アクション」を中心に要約。
-- **Notifications**: LINE Notifyで毎週のピックアップをお知らせ。
+- **AI Summarization**: Gemini 2.5 Flash を使用し、指導医視線で「臨床アクション」を中心に要約。
+- **Notifications**: LINE Messaging API（ブロードキャスト）で、その日のピックアップをお知らせ。
 - **Dashboard**: Streamlit製の見やすいスマホ対応UI。
 
 ## Setup
@@ -55,7 +55,13 @@ streamlit run app.py
 ## Deployment
 
 ### 1. GitHub Actions (Auto Update)
-このリポジトリには毎週月曜朝 (Subject to Cron) に自動実行するワークフローが含まれています。
+このリポジトリには自動実行するワークフローが2本含まれています（どちらも `run_batch.py` を実行し、`data/` をコミットします）。
+
+| ワークフロー | 実行時刻（JST） |
+| --- | --- |
+| `daily_update.yml` | 毎日 6:00 |
+| `weekly_digest.yml` | 毎週月曜 8:00 |
+
 GitHubのリポジトリ設定 (Settings > Secrets and variables > Actions) に以下のRepository secretsを追加してください:
 - `EMAIL`
 - `GEMINI_API_KEY`
