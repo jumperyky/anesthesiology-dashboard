@@ -15,6 +15,50 @@ Entrez.email = os.getenv("EMAIL")
 
 PROCESSED_IDS_PATH = "data/processed_ids.json"
 
+# 麻酔科のコア誌 (NLM の誌名略称)。ここに載った論文は、題名に「麻酔」が無くても麻酔科医向けとみなす
+CORE_JOURNALS = [
+    "Anesthesiology", "Br J Anaesth", "Anaesthesia", "Anesth Analg", "Reg Anesth Pain Med",
+    "Eur J Anaesthesiol", "Can J Anaesth", "J Clin Anesth", "Acta Anaesthesiol Scand",
+    "Anaesth Crit Care Pain Med", "J Cardiothorac Vasc Anesth", "Paediatr Anaesth",
+    "Int J Obstet Anesth", "J Anesth", "Curr Opin Anaesthesiol", "BJA Educ",
+    "Korean J Anesthesiol", "Minerva Anestesiol", "J Neurosurg Anesthesiol",
+    "Perioper Med (Lond)",
+]
+
+# コア誌以外から拾うときの条件。題名に麻酔そのものの語があること。
+# "perioperative" や "postoperative pain" は入れない (周術期化学療法や歯科の術後痛まで拾ってしまう)
+TOPIC_TITLE_TERMS = [
+    "anesthesia[ti]", "anaesthesia[ti]", "anesthetic*[ti]", "anaesthetic*[ti]",
+    "anesthesiolog*[ti]", "anaesthesiolog*[ti]",
+    '"nerve block"[ti]', '"nerve blocks"[ti]', '"plane block"[ti]', "neuraxial[ti]",
+    '"airway management"[ti]', '"tracheal intubation"[ti]', "videolaryngoscop*[ti]",
+    '"neuromuscular block"[ti]', '"neuromuscular blockade"[ti]',
+    '"postoperative nausea"[ti]', '"malignant hyperthermia"[ti]',
+]
+
+# ガイドライン・コンセンサス・システマティックレビュー・メタ解析だけを拾う (ナラティブレビューは入れない)
+EVIDENCE_TYPES = [
+    "Guideline[pt]", '"Practice Guideline"[pt]', '"Consensus Statement"[pt]',
+    '"Meta-Analysis"[pt]', '"Network Meta-Analysis"[pt]', '"Systematic Review"[pt]',
+]
+
+def build_query():
+    """PubMed の検索式を組み立てる。"""
+    journals = "(" + " OR ".join(f'"{j}"[ta]' for j in CORE_JOURNALS) + ")"
+    topic = "(" + " OR ".join(TOPIC_TITLE_TERMS) + ")"
+    types = "(" + " OR ".join(EVIDENCE_TYPES) + ")"
+
+    # 除外条件。NOT はかっこの先頭に置かない。
+    # 以前の "(NOT Animals[MeSH] NOT ...)" は先頭の NOT が PubMed に捨てられ、除外として効いていなかった
+    exclusions = (
+        " NOT (animals[mh] NOT humans[mh])"
+        ' NOT ("Case Reports"[pt] OR Letter[pt] OR Comment[pt] OR Editorial[pt]'
+        ' OR "Published Erratum"[pt] OR "Retracted Publication"[pt])'
+        " NOT (protocol[ti] OR dental[ti] OR dentistry[ti] OR endodontic*[ti] OR veterinary[ti])"
+    )
+    # 抄録が無いと要約できない
+    return f"(({journals} OR {topic}) AND {types}){exclusions} AND hasabstract AND English[lang]"
+
 def fetch_papers(max_results=5):
     """
     PubMedから論文を取得し、重複を除外して返す。
@@ -24,20 +68,8 @@ def fetch_papers(max_results=5):
         raise ValueError("EMAIL environment variable is required for PubMed API.")
 
     # 1. 検索クエリの構築
-    # Base topics
-    base_query = '(Anesthesiology[Title/Abstract] OR "Perioperative care"[Title/Abstract])'
-    
-    # Publication Types / Focus (Main condition)
-    # ユーザー要望により、キーワード指定を必須とせず、麻酔科領域のガイドライン・メタ解析・レビュー等を幅広く拾う
-    types_query = '(Guideline[Publication Type] OR "Consensus Development Conference"[Publication Type] OR "Meta-Analysis"[Publication Type] OR "Systematic Review"[Publication Type] OR "Review"[Publication Type])'
-    
-    # Exclusions (NOT condition)
-    exclusions = '(NOT "Animals"[MeSH Terms] NOT "Case Reports"[Publication Type])'
-    
-    # Full Query
-    # (Base AND Types) NOT Exclusions
-    final_query = f"{base_query} AND {types_query} {exclusions}"
-    
+    final_query = build_query()
+
     logger.info(f"Searching PubMed with query: {final_query}")
 
     try:
@@ -48,30 +80,32 @@ def fetch_papers(max_results=5):
             retmax=100,  # 重複排除用にある程度多く取得
             reldate=365,
             datetype="pdat",
-            sort="relevance" # 関連度順
+            sort="pub_date" # 新しい順
         )
         record = Entrez.read(handle)
         handle.close()
-        
+
         id_list = record["IdList"]
-        logger.info(f"Found {len(id_list)} papers.")
-        
+        logger.info(f"Found {len(id_list)} papers (newest first).")
+
         # 3. 重複排除
         processed_ids = load_json(PROCESSED_IDS_PATH, [])
         new_ids = [pid for pid in id_list if pid not in processed_ids]
-        
+
         logger.info(f"New papers after duplicate check: {len(new_ids)}")
-        
+
         if not new_ids:
             return []
-        
-        # 指定件数だけ処理
-        target_ids = new_ids[:max_results]
-        
+
+        # 候補は多めに取り、下のタイトル重複チェックを通ったものを max_results 件まで集める。
+        # ちょうど max_results 件だけ取ると、それが重複で落ちたときに 0 件になり、
+        # 処理済みにもならないので、毎回同じ論文で止まり続ける
+        candidate_ids = new_ids[:max_results * 5]
+
     # 4. 詳細取得
         handle = Entrez.efetch(
             db="pubmed",
-            id=target_ids,
+            id=candidate_ids,
             rettype="medline",
             retmode="xml"
         )
@@ -102,6 +136,9 @@ def fetch_papers(max_results=5):
 
         skipped_count = 0
         for article in papers_xml['PubmedArticle']:
+            if len(papers_data) >= max_results:
+                break
+
             medline_citation = article['MedlineCitation']
             article_data = medline_citation['Article']
             

@@ -4,7 +4,7 @@
 毎朝6時（JST）にPubMedからガイドラインや重要論文を自動収集し、Geminiで要約してLINEに通知＆ダッシュボード更新を行います。
 
 ## Features
-- **Smart Fetching**: PubMed APIを使用し、過去1年の「Guidelines」「Meta-Analysis」などを検索。既読論文は自動で重複排除。
+- **Smart Fetching**: PubMed APIを使用し、過去1年のガイドライン・コンセンサス・システマティックレビュー・メタ解析を新しい順に検索。対象は麻酔科のコア誌に載ったものと、題名に麻酔の語がある他誌の論文。既読論文は自動で重複排除。
 - **AI Summarization**: Gemini 2.5 Flash を使用し、指導医視線で「臨床アクション」を中心に要約。
 - **Notifications**: LINE Messaging API（ブロードキャスト）で、その日のピックアップをお知らせ。
 - **Dashboard**: Streamlit製の見やすいスマホ対応UI。
