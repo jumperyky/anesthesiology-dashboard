@@ -27,26 +27,16 @@ def fetch_papers(max_results=5):
     # Base topics
     base_query = '(Anesthesiology[Title/Abstract] OR "Perioperative care"[Title/Abstract])'
     
-    # Important Keywords (OR condition)
-    keywords = [
-        '"GLP-1"', '"SGLT2"', '"Video Laryngoscope"', 
-        '"Regional Anesthesia"', '"POCUS"', '"Frailty"'
-    ]
-    keywords_query = "(" + " OR ".join(keywords) + ")"
-    
-    # Publication Types / Focus (AND condition)
+    # Publication Types / Focus (Main condition)
+    # ユーザー要望により、キーワード指定を必須とせず、麻酔科領域のガイドライン・メタ解析・レビュー等を幅広く拾う
     types_query = '(Guideline[Publication Type] OR "Consensus Development Conference"[Publication Type] OR "Meta-Analysis"[Publication Type] OR "Systematic Review"[Publication Type] OR "Review"[Publication Type])'
     
     # Exclusions (NOT condition)
     exclusions = '(NOT "Animals"[MeSH Terms] NOT "Case Reports"[Publication Type])'
     
     # Full Query
-    # (Base AND Keywords AND Types) NOT Exclusions
-    # Note: ユーザー要望により Guideline 等を重視するが、Keywordが含まれているものを優先したい意図があるため
-    # Base と Keywords は AND で結ぶことで、麻酔科領域かつ注目キーワードを含むものに絞る。
-    # さらに Guideline/Meta-analysis 等で絞り込む。
-    
-    final_query = f"{base_query} AND {keywords_query} AND {types_query} {exclusions}"
+    # (Base AND Types) NOT Exclusions
+    final_query = f"{base_query} AND {types_query} {exclusions}"
     
     logger.info(f"Searching PubMed with query: {final_query}")
 

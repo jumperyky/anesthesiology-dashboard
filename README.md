@@ -55,12 +55,7 @@ streamlit run app.py
 ## Deployment
 
 ### 1. GitHub Actions (Auto Update)
-このリポジトリには自動実行するワークフローが2本含まれています（どちらも `run_batch.py` を実行し、`data/` をコミットします）。
-
-| ワークフロー | 実行時刻（JST） |
-| --- | --- |
-| `daily_update.yml` | 毎日 6:00 |
-| `weekly_digest.yml` | 毎週月曜 8:00 |
+このリポジトリには、毎日 6:00（JST）に `run_batch.py` を実行して `data/` をコミットするワークフロー（`daily_update.yml`）が含まれています。
 
 GitHubのリポジトリ設定 (Settings > Secrets and variables > Actions) に以下のRepository secretsを追加してください:
 - `EMAIL`

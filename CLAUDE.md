@@ -22,7 +22,7 @@ streamlit run app.py      # ダッシュボード
 - `src/summarizer.py` — Gemini での要約。モデル名はここに直書き
 - `src/notifier.py` — LINE Messaging API のブロードキャスト。ダッシュボードの URL もここ
 - `data/papers.json` / `data/processed_ids.json` — 収集結果と処理済み ID。**Actions が自動でコミットする**
-- `.github/workflows/` — `daily_update.yml`（毎日 6:00 JST）と `weekly_digest.yml`（月曜 8:00 JST）
+- `.github/workflows/daily_update.yml` — 毎日 6:00 JST に `run_batch.py` を実行して `data/` をコミットする
 
 ## 守ること
 
@@ -36,6 +36,10 @@ streamlit run app.py      # ダッシュボード
 
 ## 既知の事情
 
-- `weekly_digest.yml` のコミット手順に `git diff --start-number 1` という無効なオプションがあり、
-  変更が無い週はジョブが失敗する。修正案はローカルの `local-wip-2026-02` ブランチにある（未 push）。
-- 2026-02 時点のローカル作業（fetch ロジックの修正、デバッグ用スクリプト）は `local-wip-2026-02` に退避してある。
+- 検索は「麻酔科領域 かつ ガイドライン・メタ解析・レビュー等」で、関連度順に 1 回 1 件を取る。
+  2026-10-02 に注目キーワード（GLP-1 など）の縛りを外した。縛っていた頃は過去 1 年で 55 件しか当たらず、
+  未処理がほぼ尽きて「新しい論文なし」の日が続いていた。
+- 週次のワークフロー（`weekly_digest.yml`）は 2026-10-02 に削除した。毎日版と同じ処理を月曜にもう一度走らせるだけで、
+  コミット手順の不具合により新しい論文の無い週は失敗していたため。
+- 2026-02 時点のローカル作業のうち取り込んでいないもの（新しい順への並び替え、候補を多めに取る処理、取得件数 5、
+  デバッグ用スクリプト）は、ローカルの `local-wip-2026-02` ブランチに残してある（未 push）。
