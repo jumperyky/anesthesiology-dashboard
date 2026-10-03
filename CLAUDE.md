@@ -19,7 +19,10 @@ streamlit run app.py      # ダッシュボード
 ## 構成
 
 - `src/fetcher.py` — PubMed（Entrez）の検索と重複排除
-- `src/summarizer.py` — Gemini での要約。モデル名はここに直書き
+- `src/summarizer.py` — Gemini での要約。`MODELS` を先頭から使い、503 などは待って再試行、だめなら次のモデルへ。
+  全部だめなら `SummarizeError` を投げ、`run_batch.py` はその論文を保存・通知・処理済みにせず、終了コード 1 で終わる
+  （翌日に自動で再挑戦し、GitHub の失敗通知で気づける）。要約の代わりにエラー文を返す作りに戻さないこと。
+  以前はそうしていて、混雑による一時的な失敗が「要約エラー」として保存・LINE 通知され、二度と要約し直されなかった
 - `src/notifier.py` — LINE Messaging API のブロードキャスト。ダッシュボードの URL もここ
 - `data/papers.json` / `data/processed_ids.json` — 収集結果と処理済み ID。**Actions が自動でコミットする**
 - `.github/workflows/daily_update.yml` — 毎日 6:00 JST に `run_batch.py` を実行して `data/` をコミットする

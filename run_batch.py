@@ -50,8 +50,10 @@ def main():
             continue
 
     if not summarized_papers:
-        logger.warning("No papers were successfully summarized.")
-        return
+        # 保存も処理済みの記録もしないので、翌日の実行でもう一度要約を試みる。
+        # LINE には流さず、Actions の実行を失敗にして GitHub の失敗通知で気づけるようにする
+        logger.error("No papers were successfully summarized. They will be retried in the next run.")
+        sys.exit(1)
 
     # 3. Save Data (Append to existing)
     try:
