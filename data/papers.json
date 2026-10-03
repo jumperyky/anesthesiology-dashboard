@@ -288,27 +288,29 @@
     "fetched_date": "2026-04-08T21:36:29.005008"
   },
   {
-    "title_ja": "要約エラー",
-    "summary": "要約の生成に失敗しました。",
-    "clinical_action": "原文を確認してください。",
-    "importance": 1,
+    "title_ja": "小児心臓手術における胸骨切開に対する予防的局所神経ブロック：ベイジアンネットワークメタアナリシス",
+    "summary": "小児心臓手術後の疼痛管理と早期回復は重要であり、本ネットワークメタアナリシスは胸骨切開を伴う小児心臓手術における局所神経ブロックの効果を比較した。その結果、Transversus Thoracis Muscle Plane Block (TTPB) が疼痛緩和と回復において最も効果的な手法の一つであることが示された。TTPBはERASプロトコルへの組み込みが期待される。",
+    "clinical_action": "小児心臓手術（胸骨切開）後の疼痛管理において、Transversus Thoracis Muscle Plane Block (TTPB) の導入を積極的に検討してください。TTPBは疼痛スコアの改善、オピオイド消費量の削減、早期抜管に寄与する可能性があり、特にERASプロトコルを導入している施設では、その一環として組み込むことで患者アウトカムの向上が期待されます。手技の習得には超音波ガイド下での解剖学的理解と経験が必要ですが、小児麻酔における局所麻酔の選択肢として非常に有用です。有害事象の報告は不十分であったものの、局所麻酔に伴う合併症には常に注意を払い、適切なモニタリングと準備を怠らないでください。",
+    "importance": 5,
     "original_title": "Preemptive regional nerve blocks for sternotomy in pediatric cardiac surgery: a Bayesian network meta-analysis.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/40545175/",
     "id": "40545175",
     "pub_date": "2025",
     "abstract": "Effective pain management and expedited recovery are critical in pediatric cardiac surgery. While regional anesthesia techniques provide targeted pain control and may reduce opioid use and related complications, comparative evidence among regional nerve blocks in this population is limited. This study aimed to conduct a systematic review and network meta-analysis to support clinical decision-making for optimal analgesia. We conducted a Bayesian Network Meta-Analysis (NMA) including Randomized Controlled Trials (RCTs) of pediatric patients (0-12 years) undergoing cardiac surgery by sternotomy and receiving preemptive regional nerve blocks. Primary outcomes included pain scores, opioid consumption and extubation time. Both direct and indirect evidence were synthesized to rank interventions probabilistically. This study was registered on PROSPERO (CRD42024585785) and followed PRISMA Extension Statement for Reporting of Systematic Reviews Incorporating Network Meta-analyses of Health Care Interventions. The NMA incorporated 12 RCTs, comprising 969 participants, and evaluated seven regional nerve blocks. Among the techniques studied, transversus Thoracis Muscle Plane Block (TTPB) consistently ranked among the most effective for pain relief and recovery. Other blocks, including thoracic retrolaminar block and thoracic paravertebral block, also demonstrated notable performances. Adverse events were infrequent but inconsistently reported, preventing an adequate analysis. This NMA identified TTPB as a consistently top-performing technique across outcomes. These findings provide promising support for its inclusion in ERAS protocols, although further high-quality trials are needed. PROSPERO ID: CRD42024585785.",
+    "model": "gemini-2.5-flash",
     "fetched_date": "2026-04-09T21:41:10.785996"
   },
   {
-    "title_ja": "要約エラー",
-    "summary": "要約の生成に失敗しました。",
-    "clinical_action": "原文を確認してください。",
-    "importance": 1,
+    "title_ja": "小児の一般的な外科手術における局所麻酔の活用：知っておくべきブロックに関する総説",
+    "summary": "小児の術後疼痛管理は依然として課題であり、局所麻酔は多角的鎮痛の一環としてオピオイド使用を減らし、回復を早め、副作用を最小限に抑える可能性がある。本総説は、一般的な小児外科手術における局所麻酔の臨床応用、利点、限界を検討している。超音波ガイド下手技の普及が、小児麻酔における局所麻酔の安全性と有効性を高めるとしている。",
+    "clinical_action": "小児の術後疼痛管理では、オピオイド使用量削減と副作用軽減のため、多角的鎮痛の一環として局所麻酔を積極的に導入してください。虫垂切除術、鼠径ヘルニア修復術、包茎手術、胆嚢摘出術、幽門筋切開術など、一般的な小児外科手術では、術式に応じた適切なブロックを検討しましょう。ブロック選択は、手術の種類、患者の特性、術者の経験を考慮し、必ず個別化が必要です。安全性と有効性を最大化するため、小児の局所麻酔手技は原則として超音波ガイド下で行うことをルーチン化してください。この1年で超音波ガイド下手技の標準化はさらに進んでいます。",
+    "importance": 5,
     "original_title": "Regional Anesthesia to Save the Day for Kids: A Narrative Review of Literature About the Blocks to Know for Common Pediatric Surgeries.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/41597448/",
     "id": "41597448",
     "pub_date": "2026-Jan-13",
     "abstract": "Postoperative pain management in pediatric patients remains a significant challenge despite improvements in perioperative care. Regional anesthesia techniques applied as part of multimodal analgesia strategies offer the potential to reduce opioid use, accelerate recovery, and minimize side effects such as respiratory depression, nausea, and delayed mobilization. This review examines the clinical applications, advantages, and limitations of regional anesthesia blocks in the context of common pediatric surgical procedures-appendectomy, inguinal hernia repair, circumcision, cholecystectomy, and pyloromyotomy. We provide procedural comparisons in terms of analgesic efficacy, opioid-sparing effects and suitability for ambulatory surgery. In conclusion, regional anesthesia techniques have significant potential to improve postoperative outcomes in pediatric patients. However, block selection should be individualized, considering the type of surgical procedure, patient characteristics, and operator experience. Increasing applicability and routinely implementing ultrasound-guided procedures will encourage the safer and more effective use of these techniques in pediatric anesthesia.",
+    "model": "gemini-2.5-flash",
     "fetched_date": "2026-04-10T21:31:03.388009"
   },
   {
@@ -348,15 +350,16 @@
     "fetched_date": "2026-04-12T23:39:39.941806"
   },
   {
-    "title_ja": "要約エラー",
-    "summary": "要約の生成に失敗しました。",
-    "clinical_action": "原文を確認してください。",
-    "importance": 1,
+    "title_ja": "プレハビリテーション：術前患者の健康を最適化し、回復と転帰を向上させる",
+    "summary": "プレハビリテーション（Prehab）は、術前の運動、栄養、精神的サポートを組み合わせた多角的戦略であり、手術前の生理的予備能を向上させることを目的としている。\n特に高齢、虚弱、低体力、栄養不良など生理的予備能の低い患者において、合併症率の減少、回復の改善、QOLの向上に寄与する。\n質の高いデータはまだ限定的だが、婦人科腫瘍学などの分野で効果が示唆されており、実現可能で患者中心のアプローチとして推奨されている。",
+    "clinical_action": "術前診察時、特に高齢、虚弱、低体力、栄養不良の患者に対しては、積極的に運動習慣、栄養状態、精神状態について評価する。\n麻酔科医として、術前最適化の重要性を認識し、外科医や他職種と連携して、多角的プレハビリテーション（運動、栄養、精神的サポート）の導入を提案・推進する。\n大規模なプログラムがなくても、患者への簡単な運動指導（例：術前からのウォーキング推奨）や栄養指導（例：高タンパク食の推奨）から始めることができる。\n「問題の見過ごし」や「責任の所在の不明確さ」が普及の障壁となるため、周術期管理の要である麻酔科医が率先してこの概念を提唱し、患者の術前準備を強化する意識を持つことが重要である。",
+    "importance": 5,
     "original_title": "Prehabilitation: Optimizing Patient Health Before Surgery to Enhance Recovery and Outcomes.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/40816334/",
     "id": "40816334",
     "pub_date": "2025-Sep",
     "abstract": "Despite advances in perioperative care, poor surgical outcomes remain common, particularly, among patients with low physiological reserve associated with age, frailty, poor fitness, or malnutrition. Multimodal prehabilitation (Prehab)-a proactive, patient-centred strategy combining preoperative exercise, nutrition, and mental health support-aims to improve physiological reserve before surgery. This narrative review outlines the theoretical foundation for Prehab, highlights evidence supporting its safety and effectiveness, and explores its applicability to obstetric and gynecologic surgical care. Although high-quality data in these populations remain limited, emerging studies, especially in gynecologic oncology, suggest potential benefits including reduced complication rates, improved recovery, and enhanced quality of life. Barriers to widespread adoption include problem blindness, lack of ownership, and limited resources. Scalable implementation strategies are discussed, ranging from in-office recommendations to centralized digital platforms. As ongoing trials further clarify its efficacy, we argue that Prehab can be embraced now as a feasible and patient-empowering approach to surgical preparation. Enhancing physiological reserve before surgery is a vital, underused lever for improving outcomes.",
+    "model": "gemini-2.5-flash",
     "fetched_date": "2026-04-13T21:41:28.483059"
   },
   {
@@ -384,15 +387,16 @@
     "fetched_date": "2026-04-15T21:45:06.109982"
   },
   {
-    "title_ja": "要約エラー",
-    "summary": "要約の生成に失敗しました。",
-    "clinical_action": "原文を確認してください。",
-    "importance": 1,
+    "title_ja": "オピオイドフリー麻酔はオピオイドベースの麻酔に対する有用な代替法：エビデンスと今後の課題",
+    "summary": "オピオイドフリー麻酔（OFA）は、従来のオピオイドベース麻酔に代わる選択肢である。\n術後疼痛管理や早期回復の改善効果は限定的だが、術後悪心嘔吐（PONV）のリスクを明確に減少させる。\nOFAは、手術侵襲度、患者背景、術後疼痛予測、術者の専門知識に基づき、個別化して適用すべきである。",
+    "clinical_action": "術後悪心嘔吐（PONV）のリスクが高い患者や、オピオイド使用を避けたい患者には、オピオイドフリー麻酔（OFA）を積極的に検討してください。\nOFAは術後疼痛管理や早期回復の万能薬ではなく、その効果は限定的であるため、過度な期待は禁物です。\nOFAは「レシピ」ではなく「メニュー」として、手術侵襲度、患者背景、予想される術後疼痛、そして自身の専門知識に基づき、硬膜外麻酔、末梢神経ブロック、非オピオイド鎮痛薬、マルチモーダル鎮痛などを適切に組み合わせるようにしましょう。\nOFA導入時に見られる徐脈や低血圧は、適切なトレーニングと薬剤量の調整で管理可能ですが、特に循環動態の変動には注意が必要です。\n術後疼痛管理においては、OFA単独に固執せず、従来のオピオイドベースの鎮痛と組み合わせるなど、柔軟なアプローチを心がけてください。",
+    "importance": 5,
     "original_title": "Opioid-free anaesthesia as a valuable alternative to opioid-based practices: evidence and future challenges.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/40770784/",
     "id": "40770784",
     "pub_date": "2025-Oct",
     "abstract": "Opioid-Free-Anesthesia (OFA) offers a valuable alternative model that challenges traditional opioid-based anesthesia practices. Recent studies have tempered expectations regarding the capacity of OFA techniques to improve quality of postoperative pain management and early recovery, in contrast with the clearly decreased risk of postoperative nausea and vomiting. Essentially based on regional anesthesia, non-opioid adjuvants and multimodal analgesia, OFA should be better viewed as a menu rather than a recipe, guided by surgical invasiveness, patient background, expected postoperative pain, and the practitioner's expertise. Potential concerns of OFA, including bradycardia and hypotension, are manageable with proper training and adapted dosing. Further multicentre trials and non-inferiority studies are needed to better define OFA's impact on patient-reported outcome and experiences measures in perioperative care.",
+    "model": "gemini-2.5-flash",
     "fetched_date": "2026-04-16T21:36:58.771947"
   },
   {
@@ -528,15 +532,16 @@
     "fetched_date": "2026-06-18T22:53:00.919152"
   },
   {
-    "title_ja": "要約エラー",
-    "summary": "要約の生成に失敗しました。",
-    "clinical_action": "原文を確認してください。",
-    "importance": 1,
+    "title_ja": "内視鏡検査および放射線科における小児処置：臨床的考察",
+    "summary": "小児のNORA（非手術室麻酔）は、消化器内視鏡検査や放射線科処置において、その量と複雑さが増大している。\nこれらの処置を受ける小児は併存疾患を持つことが多く、遠隔環境での深い鎮静または全身麻酔が必要となる。\n安全な麻酔管理には、詳細な術前計画、処置特異的リスクの理解、麻酔チームと処置チームの緊密な連携が不可欠である。",
+    "clinical_action": "小児NORAでは、患者の併存疾患と処置の複雑性を考慮し、術前評価をこれまで以上に詳細に行うこと。特に、消化器内視鏡や放射線科処置では、鎮静薬の選択、気道管理戦略、酸素供給法が進化しているため、最新のガイドラインやプロトコルを確認し、自身の知識をアップデートすること。\n小児のインターベンショナルラジオロジーでは、低侵襲治療の拡大に伴い、処置特異的な麻酔リスクへの認識を高め、局所麻酔の適用可能性を積極的に検討すること。また、チームベースのワークフローを確立し、麻酔科医と術者間の密なコミュニケーションを徹底すること。\n遠隔環境での麻酔管理では、機器の配置、緊急時の対応プロトコルを事前に確認し、シミュレーションを行うことで、予期せぬ事態への準備を怠らないこと。気道管理は常に警戒を要し、合併症を軽減するための体系的なアプローチを実践すること。",
+    "importance": 5,
     "original_title": "Pediatric procedures in endoscopy and radiology: clinical considerations.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42228524/",
     "id": "42228524",
     "pub_date": "2026-Aug-01",
     "abstract": "Pediatric nonoperating room anesthesia (NORA) for gastrointestinal endoscopy and radiologic procedures continues to expand in volume and complexity. Children undergoing these procedures often present with significant comorbidities and require deep sedation or general anesthesia in remote environments with unique logistical and safety challenges. This review synthesizes recent literature relevant to anesthetic care of pediatric patients undergoing endoscopy and diagnostic and interventional radiology. Contemporary data demonstrate increasing reliance on anesthesiology team-delivered deep sedation or general anesthesia for pediatric gastrointestinal procedures, with ongoing evolution in sedative agents, airway strategies, and oxygen delivery techniques. In pediatric interventional radiology, advances include expanded use of minimally invasive therapies, heightened awareness of procedure-specific anesthetic risks, and emerging roles for regional anesthesia and structured team-based workflows. Safe anesthetic care for pediatric endoscopy and radiology procedures requires detailed preprocedure planning, familiarity with procedure-specific risks, and close collaboration between anesthesia and procedural teams. Recent evidence supports tailored anesthetic techniques, vigilant airway management, and systematic approaches to mitigate complications in these increasingly complex NORA settings.",
+    "model": "gemini-2.5-flash",
     "fetched_date": "2026-06-23T22:08:27.834354"
   },
   {
@@ -792,15 +797,16 @@
     "fetched_date": "2026-09-29T00:46:24.561419"
   },
   {
-    "title_ja": "要約エラー",
-    "summary": "要約の生成に失敗しました。",
-    "clinical_action": "原文を確認してください。",
-    "importance": 1,
+    "title_ja": "小児泌尿器科手術における疼痛管理のための傍脊柱筋膜面ブロック：ナラティブレビュー",
+    "summary": "傍脊柱筋膜面ブロック（ESPブロック）は、小児泌尿器科手術における術後鎮痛に有望な新規局所麻酔法である。\nその簡便性、安全性、有効性から、胸部神経因性疼痛から様々な手術へと適用が拡大している。\n特に超音波ガイド下での施行により、体性痛と内臓痛の両方に対応し、オピオイド使用量削減に寄与する可能性がある。",
+    "clinical_action": "小児泌尿器科手術の術後鎮痛では、傍脊柱筋膜面ブロック（ESPブロック）が新たな選択肢として注目されている。特に腎盂形成術、腎摘出術、尿管再移植術など、体性痛と内臓痛の両方に対応が必要な症例で有効性が期待できる。\n超音波ガイド下で施行し、長作用型局所麻酔薬を使用することで、安全かつ効果的な鎮痛が得られる。硬膜外麻酔と比較して、簡便性、安全性、オピオイド使用量削減の点で優位性がある可能性がある。\nただし、現時点でのエビデンスは症例報告が主であり、ランダム化比較試験が不足している点、麻酔薬の広がり方が不明瞭な点には留意が必要である。\nESPブロックを導入する際は、個々の症例の特性を考慮し、効果と合併症を慎重に評価しながら適用を判断すること。標準化されたプロトコルが確立されるまでは、経験豊富な医師の指導のもとで実施することが望ましい。",
+    "importance": 4,
     "original_title": "Erector Spinae Plane Block for Pain Management in Pediatric Urologic Surgeries: A Narrative Review.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42032213/",
     "id": "42032213",
     "pub_date": "2026-Apr-25",
     "abstract": "PURPOSE OF REVIEW: The erector spinae plane (ESP) block is a relatively novel regional anesthesia technique that has shown promising results in providing postoperative analgesia for pediatric urologic surgeries. Originally described for thoracic neuropathic pain, the ESP block has since expanded in use related to simplicity, safety, and efficacy across various surgical procedures. RECENT FINDINGS: This review explores the application of the ESP block in pediatric urology, including technique, dosing, indications, comparative advantages, and current evidence from case reports. Particular attention is given to its role in surgeries such as pyeloplasty, nephrectomy, and ureteral reimplantation, where both somatic and visceral pain must be effectively managed. Ultrasound guidance, the use of long-acting local anesthetics, and consideration of patient-specific factors make this technique especially suited for pediatric patients. While case-based evidence supports the block’s analgesic efficacy and opioid-sparing benefits, especially in comparison to traditional neuraxial techniques, limitations remain due to the lack of randomized trials and unclear patterns of anesthetic spread. Further research is needed to standardize practice and confirm the long-term utility of the ESP block in pediatric urologic surgery.",
+    "model": "gemini-2.5-flash",
     "fetched_date": "2026-09-30T00:01:50.633542"
   },
   {
@@ -828,15 +834,16 @@
     "fetched_date": "2026-10-02T00:23:56.372094"
   },
   {
-    "title_ja": "要約エラー",
-    "summary": "要約の生成に失敗しました。",
-    "clinical_action": "原文を確認してください。",
-    "importance": 1,
+    "title_ja": "超音波ガイド下陰茎背神経ブロックは小児包茎手術における周術期オピオイド必要量を減少させる：システマティックレビューとメタアナリシス",
+    "summary": "このメタアナリシスは、小児包茎手術における超音波ガイド下陰茎背神経ブロック（DPNB）とランドマーク法DPNBを比較したものである。\n超音波ガイド下DPNBは、ランドマーク法と比較して、術中および術後のオピオイド必要量を有意に減少させることが示された。\n手技時間はわずかに長くなるものの、オピオイド節約効果が期待できる。",
+    "clinical_action": "小児包茎手術における陰茎背神経ブロック（DPNB）を実施する際は、可能な限り超音波ガイド下での実施を検討してください。\nこれにより、術中および術後のオピオイド使用量を大幅に削減できることが示されています。\n手技時間はわずかに延長する可能性がありますが、術後の鎮痛効果や退院時間、術後悪心嘔吐には大きな差がないため、オピオイド節約麻酔の最適化に寄与します。\n特に、オピオイド使用を最小限に抑えたい症例や、より確実なブロックを求める場合に有用です。",
+    "importance": 5,
     "original_title": "Ultrasound-Guided Dorsal Penile Nerve Block Reduces Perioperative Opioid Requirements in Pediatric Circumcision: A Systematic Review and Meta-Analysis.",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42820467/",
     "id": "42820467",
     "pub_date": "2026-Dec",
     "abstract": "This meta-analysis compares ultrasound-guided and landmark-based dorsal penile nerve block (DPNB) in pediatric circumcision. We systematically searched PubMed, Scopus, Web of Science, Embase, and Cochrane CENTRAL from inception to December 2025. Eligible studies included randomized controlled trials (RCTs) and observational cohorts comparing ultrasound-guided with landmark-based DPNB in pediatric patients (≤18 years) undergoing circumcision. Primary outcomes were intraoperative and postoperative opioid rescue requirements. Secondary outcomes included pain scores at incision, surgical duration, discharge time, and postoperative nausea/vomiting. Meta-analyses were performed using RStudio version 4.4.3. Nine studies involving 949 children met inclusion criteria (five RCTs, four retrospective cohorts). Ultrasound-guided DPNB significantly reduced intraoperative opioid rescue (risk ratio 0.39, 0.18-0.88; <i>p</i> = 0.028) and postoperative opioid requirements (risk ratio 0.26, 0.07-0.94; <i>p</i> = 0.0442) compared with landmark-based techniques. No significant differences emerged in pain scores at incision, discharge time, or postoperative nausea/vomiting. Ultrasound-guided blocks required modestly longer procedural time (mean difference 1.48 min, 0.03-2.94; <i>p</i> = 0.048). Ultrasound-guided DPNB substantially may reduce perioperative opioid requirements in pediatric circumcision compared with landmark-based approaches, despite slightly longer procedural times. When resources and expertise permit, ultrasound guidance should be considered the technique of choice for optimizing opioid-sparing anesthesia in this population.",
+    "model": "gemini-2.5-flash",
     "fetched_date": "2026-10-03T00:05:31.039812"
   }
 ]
