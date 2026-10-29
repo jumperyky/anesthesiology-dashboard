@@ -1170,5 +1170,18 @@
     "abstract": "Healthcare accounts for 7% of Singapore's carbon emissions. Given the role of planetary health in health outcomes, healthcare must be sustainable, evidence- and value-based. This consensus paper provides Singapore-specific recommendations to guide sustainable anaesthesia and intensive care practice while maintaining clinical care standards. It aims to support discussion, planning and implementation of initiatives without superseding clinical judgement or local policies. A workgroup from the Singapore Society of Anaesthesiologists conducted a review of international sustainability guidelines, peer-reviewed literature and evidence. Iterative consensus building was undertaken through discussion and consultation. Evidence was derived from life cycle analyses, laboratory or environmental studies, and quality improvement initiatives rather than conventional randomised controlled trials, but can nevertheless provide a robust scientific basis for recommendations underpinned by the triple bottom line framework. This position statement calls upon anaesthesiologists in Singapore to exercise leadership and stewardship to reduce emissions without compromising care.",
     "model": "gemini-2.5-flash",
     "fetched_date": "2026-10-28T00:10:54.213871"
+  },
+  {
+    "title_ja": "ベネズエラ系患者におけるハロゲン化吸入麻酔薬を用いた全身麻酔に関連する重篤な有害事象。臨床実践のための推奨事項。",
+    "summary": "ベネズエラ系の患者、特に母系にそのルーツを持つ患者において、ハロゲン化吸入麻酔薬による全身麻酔後に神経学的損傷や死亡といった重篤な有害事象が報告されている。\nこれは、ミトコンドリア呼吸鎖複合体IのmtND4 m.11232T>C変異に関連するミトコンドリア感受性が原因である可能性が指摘されている。\nスペイン麻酔蘇生学会（SEDAR）は、このリスクを考慮した臨床実践ガイドラインを発表している。",
+    "clinical_action": "ベネズエラ系の患者、特に母系にそのルーツを持つ患者に対して全身麻酔を計画する際は、ミトコンドリア感受性の可能性を念頭に置くべきである。\nハロゲン化吸入麻酔薬の使用は避け、可能であれば全静脈麻酔（TIVA）を第一選択として検討すること。\n術前問診で患者の出自や家族歴を詳細に確認し、疑わしい場合は麻酔方法について十分な検討と情報提供を行う必要がある。\n緊急性や施設の状況に応じて最終的な麻酔法を決定するが、この遺伝的リスクの存在は重要な考慮事項である。",
+    "importance": 5,
+    "original_title": "Severe adverse events associated with general anesthesia with halogenated agents in patients of Venezuelan ancestry. Recommendations for clinical practice.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42685863/",
+    "id": "42685863",
+    "pub_date": "2026-Oct",
+    "abstract": "The mtND4 Working Group of the Spanish Society of Anesthesiology and Resuscitation (SEDAR) has issued clinical practice recommendations. This article stems from reports of neurological injury and death following general in adult and patients of maternal Venezuelan ancestry, in whom a possible mitochondrial susceptibility associated with the mtND4 m.11232T>C variant of respiratory chain complex I has been identified. This document is for informational and guidance purposes only. The final clinical decision should be individualized for each patient, taking into account the urgency of the procedure, therapeutic alternatives, and the resources available at each center.",
+    "model": "gemini-2.5-flash",
+    "fetched_date": "2026-10-29T00:32:29.645790"
   }
 ]
