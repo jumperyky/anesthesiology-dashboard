@@ -1183,5 +1183,18 @@
     "abstract": "The mtND4 Working Group of the Spanish Society of Anesthesiology and Resuscitation (SEDAR) has issued clinical practice recommendations. This article stems from reports of neurological injury and death following general in adult and patients of maternal Venezuelan ancestry, in whom a possible mitochondrial susceptibility associated with the mtND4 m.11232T>C variant of respiratory chain complex I has been identified. This document is for informational and guidance purposes only. The final clinical decision should be individualized for each patient, taking into account the urgency of the procedure, therapeutic alternatives, and the resources available at each center.",
     "model": "gemini-2.5-flash",
     "fetched_date": "2026-10-29T00:32:29.645790"
+  },
+  {
+    "title_ja": "フィブリノゲン製剤が同種血輸血製剤の必要量を減少させる役割：系統的レビューとメタアナリシス",
+    "summary": "本メタアナリシスは、後天性低フィブリノゲン血症に対するフィブリノゲン製剤（FC）の使用が、成人患者において赤血球、新鮮凍結血漿、血小板の輸血量を有意に減少させることを示している。\n特に心臓手術においてこの効果が顕著であった。\n死亡率や血栓塞栓症イベントの増加は認められず、安全性に懸念はない。",
+    "clinical_action": "術中の大量出血が予想される成人患者、特に心臓手術において、後天性低フィブリノゲン血症が疑われる場合は、フィブリノゲン製剤の投与を積極的に検討してください。\nこれにより、赤血球、新鮮凍結血漿、血小板といった同種血輸血製剤の使用量を減らせる可能性が高いです。\nフィブリノゲン製剤の使用は、死亡率や血栓塞栓症のリスクを増加させないことが示されており、安全性に関する大きな懸念はありません。\n小児患者においては、本研究では明確な輸血量減少効果や安全性に関する差は認められていないため、成人患者と同様の積極的な使用は現時点では推奨されません。\n凝固管理プロトコルにフィブリノゲン製剤の早期導入を組み込むことで、輸血戦略を最適化できる可能性があります。",
+    "importance": 5,
+    "original_title": "The role of fibrinogen concentrate in the reduction of allogeneic blood product requirements: a systematic review and meta-analysis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42864190/",
+    "id": "42864190",
+    "pub_date": "2026-Nov",
+    "abstract": "Fibrinogen concentrate (FC) has a well-established safety profile and is recommended for treating acquired fibrinogen deficiency. However, its comparative effectiveness vs other treatments regarding transfusions and patient outcomes remains uncertain. Comparative studies from a range of clinical settings in which patients received FC for acquired hypofibrinogenaemia and that evaluated blood product needs, mortality, thromboembolic events, or hospital length of stay were included in a systematic literature review and meta-analysis (PROSPERO: CRD42024602804). Meta-analyses used pooled data to provide an estimate of the difference in outcome between FC and all other treatments; separate analyses were conducted for adult and paediatric patients. Overall, 58 studies (N=13 530 patients) were analysed. Adult FC recipients received significantly fewer red blood cell, fresh frozen plasma, and platelet units than with other treatments: 28% (incidence rate ratio [IRR] 0.72; 95% confidence interval [CI] 0.59-0.89; P=0.002), 31% (IRR 0.69; 95% CI 0.54-0.89; P=0.004), and 44% less (IRR 0.56; 95% CI 0.33-0.95; P=0.03), respectively. These results were largely driven by cardiac surgery studies. In an RCT subanalysis, the use and quantity of blood products were significantly reduced with FC. No significant difference in mortality or thromboembolic events was found between treatments in adult patients or in any outcomes analysed in paediatric patients. This meta-analysis suggests fibrinogen concentrate administered for acquired hypofibrinogenaemia can reduce blood product transfusions in adults, with no obvious safety concerns, compared with other treatments.",
+    "model": "gemini-2.5-flash",
+    "fetched_date": "2026-10-30T00:31:32.957481"
   }
 ]
