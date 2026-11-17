@@ -1417,5 +1417,18 @@
     "abstract": "Breast cancer is the most common type of cancer among women, while several factors seem to play a role in carcinogenesis. Recent findings suggest that some anesthetic factors and techniques contribute to immune suppression and metastasis, while others have beneficial effects. The aim of this meta-analysis is to identify the overall effects of different anesthetic modalities on the patients' immune system after breast cancer surgery. A systematic search was conducted from February 2026 to March 2026 in PubMed, CENTRAL, and Scopus. Only Randomized controlled trials were included. As primary endpoints were considered CD4+ T cell, CD8+ T cell, and Natural killer (NK) cell counts at 24, 48, and 72 hours after the end of the surgery. As secondary endpoints were considered, Leucocytes, Lymphocytes, Neutrophils, the Neutrophil- to- Lymphocyte ratio (NLR), CD4+/CD8+, IL-2, IL-6, Matrix metalloproteinase-9 at the same time points. Sixteen studies met the inclusion criteria. We concluded in positive effects of the combination of general anesthesia (GA) and regional anesthesia on CD4+ T cells (Standardized mean difference (SMD) 0.35 [0.06; 0.64], I<sup>2</sup> 38.7%), NK cells (SMD 0.40 [0.05; 0.75], I<sup>2</sup> 56%), and NLR (SMD -0.42 [-0.64; -0.19], I<sup>2</sup> 0%) 24 hours after surgery. Also, the comparison between total intravenous anesthesia and inhalational anesthesia revealed a statistically significantly higher total leukocyte count in the inhalational anesthesia group (SMD 0.61 [0.19; 1.03], I<sup>2</sup> 0%). Combined regional and GA exerts a beneficial effect regarding NK cell counts, CD4+ T cell counts, and NLR (PROSPERO: CRD42024564788).",
     "model": "gemini-3.5-flash",
     "fetched_date": "2026-11-16T00:35:38.782454"
+  },
+  {
+    "title_ja": "【撤回】術後悪心嘔吐に対するペネヒクリジンの有効性と安全性に関するメタアナリシス",
+    "summary": "術後悪心嘔吐（PONV）に対するペネヒクリジンの有効性と安全性を検証したメタアナリシスである。しかし、著者側が編集部からの要請に対応しなかったため、本論文は取り下げ（撤回）された。掲載内容をエビデンスとして使用することはできない状態である。",
+    "clinical_action": "本論文は撤回されているため、掲載されたデータや結論をPONV対策の根拠として臨床で使用してはならない。PONVの予防および治療に関しては、撤回されていない信頼性の高いガイドラインや他の確立されたエビデンスに基づく薬剤を選択すること。",
+    "importance": 1,
+    "original_title": "WITHDRAWN: A Meta-Analysis of Efficacy and Safety of Penehyclidine for Postoperative Nausea and Vomiting.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41235572/",
+    "id": "41235572",
+    "pub_date": "2026-Nov-16",
+    "abstract": "As the authors have not responded to repeated requests from the Editorial Office to fulfill the required editorial requirements, the article has been withdrawn. The publisher apologizes to the journal's readers for any inconvenience this may have caused.",
+    "model": "gemini-3.5-flash",
+    "fetched_date": "2026-11-17T03:20:34.051710"
   }
 ]
