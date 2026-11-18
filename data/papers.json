@@ -1430,5 +1430,18 @@
     "abstract": "As the authors have not responded to repeated requests from the Editorial Office to fulfill the required editorial requirements, the article has been withdrawn. The publisher apologizes to the journal's readers for any inconvenience this may have caused.",
     "model": "gemini-3.5-flash",
     "fetched_date": "2026-11-17T03:20:34.051710"
+  },
+  {
+    "title_ja": "局所麻酔下覚醒下手術における患者の体験に関する定性文献レビュー",
+    "summary": "局所麻酔下での覚醒下手術を受ける患者の体験に関する定性文献のシステマティックレビューである。患者は環境や人間関係、感覚的要因に強く影響され、脆弱性と変動するコントロール感に直面している。個別化したコミュニケーションと周術期チームの協調が患者の安心感と信頼構築に不可欠であることを示している。",
+    "clinical_action": "覚醒下手術の麻酔管理においては、手術室内の会話や音量に十分配慮し、患者の不安を煽らない環境を維持してください。術中は患者の尊厳に配慮した共感的かつ継続的な声かけを行い、患者がコントロール感を保てるような心理的サポートを周術期チーム全体で実践してください。",
+    "importance": 4,
+    "original_title": "Patients' experiences of awake surgery under local anaesthesia: A qualitative literature review.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42337918/",
+    "id": "42337918",
+    "pub_date": "2026-Dec",
+    "abstract": "The growing adoption of local anaesthesia in surgical practice expands procedures that can be undertaken with patients fully awake. This shift introduces both opportunities and challenges for perioperative care, as patients remain conscious, and influenced by environmental, interpersonal and sensory factors. To synthesise and interpret adult patients' experiences of undergoing surgery while awake under local anaesthesia. A systematic qualitative literature review was conducted, drawing on peer-reviewed studies published between 2010 and 2025. An inductive analytic approach was applied. Nine studies were included. Four overarching themes were identified: (1) the need for respectful, tailored communication; (2) the centrality of the perioperative team's presence and cohesion; (3) experiences of exposure, vulnerability and fluctuating control; and (4) strategies employed by patients to cope with intraoperative stressors. Across studies, continuous, person-centred communication and empathetic engagement reduced anxiety and enhanced perceived safety. In awake surgery, interpersonal communication, team behaviours and the environmental context profoundly shape patients' intraoperative experiences. Person-centred communication, ethical attentiveness and a supportive perioperative presence are essential to fostering trust, reducing distress and enabling meaningful patient involvement. Theatre nurses and Operating Department Practitioners play a pivotal role in sustaining a safe, humane environment for awake patients.",
+    "model": "gemini-3.5-flash-lite",
+    "fetched_date": "2026-11-18T02:41:48.490413"
   }
 ]
